@@ -1,0 +1,103 @@
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 0;
+    background-color: #4BAA38;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.promotion-section {
+    background-color: #4BAA38;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.promotion-heading{
+    font-family:'Poppins';
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.jumbotron-text h1{
+    font-family: 'Poppins'; 
+    font-size: 30px; 
+    font-weight : bold; 
+    color:yellow
+}
+
+.btninfo {
+    background-color: yellow;
+    color: green;
+    font-family: 'Poppins', sans-serif; /* Mengatur font family */
+    font-weight: 700; /* Mengatur font weight */
+    border: none; /* Menghilangkan border default */
+    padding: 10px 20px;
+}
+.btninfo:hover {
+    background-color: #FFD700; /* Warna sedikit lebih gelap saat hover */
+}
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 0;
+    background-color: #4BAA38;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.promotion-section {
+    background-color: #4BAA38;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.promotion-heading{
+    font-family:'Poppins';
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.jumbotron-text h1{
+    font-family: 'Poppins'; 
+    font-size: 30px; 
+    font-weight : bold; 
+    color:yellow
+}
+
+.btninfo {
+    background-color: #FED420;
+    color: #4BAA38;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem; 
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block; 
+}
+.btninfo:hover {
+    background-color: #ffd900;
+}
+
+.Judul {
+    font-family: 'Poppins'; 
+    font-size: 20px; 
+    font-weight : bold; 
+    color: #4BAA38;
+}
+
+.Deskripsi {
+    font-family: 'Poppins';
+    font-size: 20px; 
+}
+
+.Kategori{
+    font-family: 'Poppins'; 
+    font-size: 20px; 
+    font-weight : bold; 
+    color: #4BAA38;
+}
