@@ -43,13 +43,13 @@
         </div>
     </div>
 
-    <div class="container my-5">
-        <div class="row">
-            <?php for ($i = 0; $i < 12; $i++): ?>
-                <?php include 'includes/product_card.php'; ?>
-            <?php endfor; ?>
-        </div>
+    <div class="container my-4">
+    <div class="row g-2"> <!-- Jarak antar-kolom dan baris -->
+        <?php for ($i = 0; $i < 12; $i++): ?>
+            <?php include 'includes/product_card.php'; ?>
+        <?php endfor; ?>
     </div>
+</div>
 
     <?php include 'includes/footer.php'; ?>
 

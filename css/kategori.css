@@ -35,9 +35,15 @@ body {
 
 /* Product Cards */
 .card {
-    border-radius: 10px;
-    overflow: hidden;
+    border: 2px solid #4BAA38; /* Warna hijau khusus */
+    border-radius: 10px; /* Opsional: Membuat sudut kartu membulat */
+    transition: transform 0.3s ease-in-out;
 }
+
+.card:hover {
+    transform: scale(1.03); /* Efek hover */
+}
+
 
 .card img {
     width: 100%;

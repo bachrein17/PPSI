@@ -16,13 +16,13 @@
         <div class="container d-flex align-items-center">
             <div class="jumbotron-text">
             <h1 class="display-4" style="font-family: 'Poppins'; font-size: 30px; font-weight : bold; color:yellow">Temukan & Dukung<br>Produk Lokal Terbaik!</h1>
-                <p class="lead" style="font-family : 'Poppins'">Sumber UMKM adalah platform yang mempertemukan masyarakat dengan produk lokal unggulan dari pelaku UMKM. Mulai dari makanan, kerajinan, hingga fashion, kami hadir untuk memudahkan pencarian dan dukungan terhadap usaha kecil di sekitar Anda. Temukan produk asli Indonesia dan jadilah bagian dari pemberdayaan ekonomi lokal!</p>
+                <p class="lead" style="font-family : 'Poppins'; width:90%;">Sumber UMKM adalah platform yang mempertemukan masyarakat dengan produk lokal unggulan dari pelaku UMKM. Mulai dari makanan, kerajinan, hingga fashion, kami hadir untuk memudahkan pencarian dan dukungan terhadap usaha kecil di sekitar Anda. Temukan produk asli Indonesia dan jadilah bagian dari pemberdayaan ekonomi lokal!</p>
                 <div class="tombol" style="display: flex; flex-wrap:wrap;">
                 <a href="informasi.php" class="btninfo btn-lg mt-3">Telusuri Sekarang!</a>
                 </div>
             </div>
             <div class="jumbotron-image">
-            <img src="img/logo-sumber-umkm.png" alt="Logo-Sumber-UMKM">
+            <img src="img/logo-bursa-umkm.png" alt="Logo-Sumber-UMKM">
             </div>
         </div>
     </div>

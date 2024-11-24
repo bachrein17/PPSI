@@ -54,7 +54,7 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Tentang Bursa UMKM</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tentang.php">Tentang Bursa UMKM</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Mulai Berjualan</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Admin</a></li>
                 </ul>
