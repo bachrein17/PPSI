@@ -8,14 +8,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .navbar,
+      .navbar,
         .navbar a,
         .navbar-brand {
             font-family: 'Poppins' !important;
             font-size: 20px !important;
+            background-color:rgb(255, 255, 255);
+            color: black;
+            text-decoration: none;
         }
 
-        .nav-link{
+        .nav-link {
             padding: 10px 15px !important;
         }
 
@@ -55,8 +58,8 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
                     <li class="nav-item"><a class="nav-link" href="tentang.php">Tentang Bursa UMKM</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Mulai Berjualan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Admin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="jual.php">Mulai Berjualan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./admin/dashboard.php">Admin</a></li>
                 </ul>
             </div>
             <div class="d-flex">

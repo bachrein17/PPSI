@@ -13,6 +13,9 @@
         .navbar-brand {
             font-family: 'Poppins' !important;
             font-size: 20px !important;
+            background-color: #4BAA38;
+            color: white;
+            text-decoration: none;
         }
 
         .nav-link{
@@ -55,8 +58,8 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
                     <li class="nav-item"><a class="nav-link" href="tentang.php">Tentang Bursa UMKM</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Mulai Berjualan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Admin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="jual.php">Mulai Berjualan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./admin/dashboard.php">Admin</a></li>
                 </ul>
             </div>
             <div class="d-flex">
