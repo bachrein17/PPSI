@@ -10,6 +10,41 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
     <style>
+        .navbar,
+        .navbar a,
+        .navbar-brand {
+            font-family: 'Poppins' !important;
+            font-size: 20px !important;
+            text-decoration: none;
+            background-color: #4BAA38;
+        }
+
+        .nav-link {
+            padding: 10px 15px !important;
+        }
+
+        .btn-outline-secondary {
+            background-color: white !important;
+            color: #4BAA38 !important;
+            border: 2px solid #4BAA38 !important;
+        }
+
+        .btn-outline-secondary:hover {
+            background-color: #4BAA38 !important;
+            color: white !important;
+        }
+
+        .btn-secondary {
+            background-color: #FED420 !important;
+            color: black !important;
+            border: none !important;
+            font-weight: 500 !important;
+        }
+
+        .btn-secondary:hover {
+            background-color: #388D2C !important;
+        }
+
         body {
             font-family: 'Poppins', sans-serif;
         }

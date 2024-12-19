@@ -7,42 +7,6 @@
     <title>Sumber UMKM - Homepage</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .navbar,
-        .navbar a,
-        .navbar-brand {
-            font-family: 'Poppins' !important;
-            font-size: 20px !important;
-            text-decoration: none;
-            background-color: #4BAA38;
-        }
-
-        .nav-link{
-            padding: 10px 15px !important;
-        }
-
-        .btn-outline-secondary {
-            background-color: white !important;
-            color: #4BAA38 !important;
-            border: 2px solid #4BAA38 !important;
-        }
-
-        .btn-outline-secondary:hover {
-            background-color: #4BAA38 !important;
-            color: white !important;
-        }
-
-        .btn-secondary {
-            background-color: #FED420 !important;
-            color: black !important;
-            border: none !important;
-            font-weight: 500 !important;
-        }
-
-        .btn-secondary:hover {
-            background-color: #388D2C !important;
-        }
-    </style>
 </head>
 
 <body>
@@ -58,7 +22,7 @@
                     <li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
                     <li class="nav-item"><a class="nav-link" href="tentang.php">Tentang Bursa UMKM</a></li>
                     <li class="nav-item"><a class="nav-link" href="jual.php">Mulai Berjualan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./admin/dashboard.php">Admin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./admin/index.php">Admin</a></li>
                 </ul>
             </div>
             <div class="d-flex">
