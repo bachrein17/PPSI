@@ -1,18 +1,25 @@
+<?php
+// review_produk.php
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produk dan Review</title>
+    <title>Review Produk</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #F8FFF8;
+            color: #333;
         }
         .container {
-            margin: 20px;
+            margin: 20px auto;
+            max-width: 800px;
         }
         .produk-detail {
             display: flex;
@@ -22,7 +29,7 @@
             border: 1px solid #28A745;
             border-radius: 10px;
             padding: 20px;
-            background-color: #F8FFF8;
+            background-color: #ffffff;
         }
         .produk-detail img {
             width: 150px;
@@ -50,14 +57,19 @@
         }
         .review-name {
             font-weight: 600;
+            color: #333;
         }
         .review-form {
             background-color: #28A745;
             padding: 20px;
             border-radius: 10px;
             color: white;
+            margin-top: 20px;
         }
-        .review-form input, .review-form textarea, .review-form button {
+        .review-form input,
+        .review-form select,
+        .review-form textarea,
+        .review-form button {
             width: 100%;
             margin-bottom: 15px;
             padding: 10px;
@@ -70,19 +82,27 @@
             font-weight: bold;
             cursor: pointer;
         }
+        .review-form button:hover {
+            background-color: #F9C900;
+        }
+        h2 {
+            color: #28A745;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-<?php include 'includes/navbar.php'; ?>
+    <!-- Include Navbar -->
+    <?php include 'includes/navbar.php'; ?>
 
     <div class="container">
         <!-- Detail Produk -->
         <div class="produk-detail">
-            <img src="kentang.jpg" alt="Kentang Frozen Food">
+            <img src="images/kentang.jpg" alt="Kentang Frozen Food">
             <div class="produk-info">
                 <h2>Kentang Frozen Food</h2>
-                <p><strong>Harga:</strong> Rp.</p>
-                <p><strong>No Telepon:</strong> 123456789</p>
+                <p><strong>Harga:</strong> Rp. 25.000</p>
+                <p><strong>No Telepon:</strong> 08123456789</p>
                 <p>Kentang frozen food adalah kentang yang dibekukan sebagai salah satu jenis makanan beku (frozen food). Frozen food adalah makanan yang diawetkan dengan cara mengubah sebagian besar kandungan airnya menjadi es.</p>
                 <ul>
                     <li>Karbohidrat dalam bentuk pati</li>
@@ -96,7 +116,7 @@
         </div>
 
         <!-- Review Pengunjung -->
-        <h2 style="color: #28A745;">Review Pengunjung</h2>
+        <h2>Review Pengunjung</h2>
         <div class="review-section">
             <div class="review-card">
                 <p class="review-name">Gojo Satoru</p>
@@ -119,7 +139,7 @@
         </div>
 
         <!-- Form Review -->
-        <h2 style="color: #28A745;">Review Saya</h2>
+        <h2>Review Saya</h2>
         <form class="review-form" action="submit_review.php" method="POST">
             <input type="text" name="name" placeholder="Nama" required>
             <input type="email" name="email" placeholder="Email" required>
@@ -131,11 +151,12 @@
                 <option value="2">⭐️⭐️</option>
                 <option value="1">⭐️</option>
             </select>
-            <textarea name="comment" placeholder="Komentar" rows="4" required></textarea>
+            <textarea name="comment" placeholder="Komentar Anda..." rows="4" required></textarea>
             <button type="submit">Kirim</button>
         </form>
     </div>
 
+    <!-- Include Footer -->
     <?php include 'includes/footer.php'; ?>
 </body>
 </html>

@@ -11,16 +11,44 @@
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
         }
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #FFC300; /* Yellow background */
+            padding: 1rem;
+            color: white;
+            border-bottom: 2px solid #FF5733; /* Line separating header from content */
+        }
+        .header .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: auto; /* Push title to the left */
+        }
+        .header .navbar {
+            display: flex;
+            align-items: center;
+        }
+        .header .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 1rem;
+            padding: 0.5rem;
+            border-radius: 5px;
+            background-color: #FF5733; /* Red background for Logout */
+        }
+        .header .navbar a:hover {
+            background-color: #FF4500; /* Darker red on hover */
+        }
+        /* Content */
         .content {
             margin-left: 20%;
             padding: 2rem;
             width: 80%;
-        }
-        .header {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 1rem;
         }
         .box {
             width: 30%;
@@ -44,10 +72,18 @@
     </style>
 </head>
 <body>
-<?php include '../includes/sidebar.php'; ?>
+    <?php include '../includes/sidebar.php'; ?>
 
+    <!-- Header -->
+    <div class="header">
+        <div class="title">Sumber UMKM</div>
+        <div class="navbar">
+            <a href="logout.php">Logout</a>
+        </div>
+    </div>
+
+    <!-- Content -->
     <div class="content">
-        <div class="header">Dashboard Admin</div>
         <div>
             <div class="box red">Total UMKM<br>0</div>
             <div class="box yellow">Total Kategori<br>0</div>
@@ -57,5 +93,6 @@
             <img src="your-chart.png" alt="Chart" style="width: 60%;">
         </div>
     </div>
+
 </body>
 </html>

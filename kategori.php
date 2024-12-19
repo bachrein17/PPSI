@@ -16,6 +16,10 @@ $products = [
     <title>Bursa UMKM</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        .navbar {
+            background-color: #4BAA38;
+        }
+
         .search-container {
             display: flex;
             align-items: center;
@@ -221,7 +225,7 @@ $products = [
                             <h5><?php echo $product['name']; ?></h5>
                             <p>Harga: <?php echo $product['price']; ?></p>
                             <p>Lokasi: <?php echo $product['location']; ?></p>
-                            <a href="#" class="btninfo">Review Pengguna</a>
+                            <a href="review_produk.php" class="btninfo">Review Pengguna</a>
                         </div>
                     </div>
                 </div>

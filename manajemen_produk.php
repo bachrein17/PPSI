@@ -48,6 +48,7 @@
             color: white;
             padding: 5px 10px;
             border-radius: 5px;
+            text-decoration: none;
         }
 
         .btn-delete {
@@ -56,6 +57,7 @@
             color: white;
             padding: 5px 10px;
             border-radius: 5px;
+            text-decoration: none;
         }
 
         .btn-detail {
@@ -64,6 +66,7 @@
             color: white;
             padding: 5px 10px;
             border-radius: 5px;
+            text-decoration: none;  
         }
     </style>
 </head>
@@ -126,10 +129,12 @@
                         <img src="img/sample1.jpg" alt="Foto Produk" width="50">
                     </td>
                     <td>
-                        <button class="btn-edit">Ubah</button>
-                        <button class="btn-delete">Hapus</button>
-                        <button class="btn-detail">Detail</button>
+                        <a href="ubah_produk.php?id=<?= $id; ?>" class="btn-edit">Ubah</a>
+                        <a href="hapus.php?id=<?= $id; ?>" class="btn-delete"
+                            onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">Hapus</a>
+                        <a href="review_seller.php?id=<?= $id; ?>" class="btn-detail">Detail</a>
                     </td>
+
                 </tr>
                 <!-- Tambahkan produk lainnya di sini -->
             </tbody>

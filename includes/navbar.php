@@ -13,9 +13,8 @@
         .navbar-brand {
             font-family: 'Poppins' !important;
             font-size: 20px !important;
-            background-color: #4BAA38;
-            color: white;
             text-decoration: none;
+            background-color: #4BAA38;
         }
 
         .nav-link{

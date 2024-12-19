@@ -1,3 +1,13 @@
+.navbar,
+.navbar a,
+.navbar-brand {
+    font-family: 'Poppins' !important;
+    font-size: 20px !important;
+    background-color: white !important;
+    color: black;
+    text-decoration: none;
+}
+
 .jumbotron {
     padding: 4rem 2rem;
     margin-bottom: 0;
@@ -13,31 +23,37 @@
     border-radius: 8px;
 }
 
-.promotion-heading{
-    font-family:'Poppins';
+.promotion-heading {
+    font-family: 'Poppins';
     color: yellow;
     font-size: 50px;
     font-weight: bold;
 }
 
-.jumbotron-text h1{
-    font-family: 'Poppins'; 
-    font-size: 30px; 
-    font-weight : bold; 
-    color:yellow
+.jumbotron-text h1 {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow
 }
 
 .btninfo {
     background-color: yellow;
     color: green;
-    font-family: 'Poppins', sans-serif; /* Mengatur font family */
-    font-weight: 700; /* Mengatur font weight */
-    border: none; /* Menghilangkan border default */
+    font-family: 'Poppins', sans-serif;
+    /* Mengatur font family */
+    font-weight: 700;
+    /* Mengatur font weight */
+    border: none;
+    /* Menghilangkan border default */
     padding: 10px 20px;
 }
+
 .btninfo:hover {
-    background-color: #FFD700; /* Warna sedikit lebih gelap saat hover */
+    background-color: #FFD700;
+    /* Warna sedikit lebih gelap saat hover */
 }
+
 .jumbotron {
     padding: 4rem 2rem;
     margin-bottom: 0;
@@ -53,18 +69,18 @@
     border-radius: 8px;
 }
 
-.promotion-heading{
-    font-family:'Poppins';
+.promotion-heading {
+    font-family: 'Poppins';
     color: yellow;
     font-size: 50px;
     font-weight: bold;
 }
 
-.jumbotron-text h1{
-    font-family: 'Poppins'; 
-    font-size: 30px; 
-    font-weight : bold; 
-    color:yellow
+.jumbotron-text h1 {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow
 }
 
 .btninfo {
@@ -72,32 +88,33 @@
     color: #4BAA38;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 1.2rem; 
-    padding: 15px 30px; 
+    font-size: 1.2rem;
+    padding: 15px 30px;
     border: none;
     border-radius: 5px;
     text-decoration: none;
-    display: inline-block; 
+    display: inline-block;
 }
+
 .btninfo:hover {
     background-color: #ffd900;
 }
 
 .Judul {
-    font-family: 'Poppins'; 
-    font-size: 20px; 
-    font-weight : bold; 
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
     color: #4BAA38;
 }
 
 .Deskripsi {
     font-family: 'Poppins';
-    font-size: 20px; 
+    font-size: 20px;
 }
 
-.Kategori{
-    font-family: 'Poppins'; 
-    font-size: 20px; 
-    font-weight : bold; 
+.Kategori {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
     color: #4BAA38;
 }
