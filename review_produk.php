@@ -4,23 +4,85 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Review Produk</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #F8FFF8;
-            color: #333;
+.container{
+    margin: 10px 0;
+}
+
+       .navbar,
+        .navbar a,
+        .navbar-brand {
+            font-family: 'Poppins' !important;
+            font-size: 20px !important;
+            text-decoration: none;
+            background-color: #4BAA38;
         }
-        .container {
-            margin: 20px auto;
-            max-width: 800px;
+
+        .nav-link{
+            padding: 10px 15px !important;
         }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 80%;
+            margin: 0 auto;
+            gap: 15px;
+        }
+
+        .search-container .logo {
+            width: 75px;
+            height: auto;
+        }
+
+        .search-container .form-control {
+            padding: 10px 15px;
+            border: 2px solid #4BAA38;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .search-container .form-control:focus {
+            outline: none;
+            border-color: #FED420;
+            box-shadow: 0 0 5px #FED420;
+        }
+
+        .search-container .favorite-icon img {
+            width: 40px;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .btn-outline-secondary {
+            background-color: white !important;
+            color: #4BAA38 !important;
+            border: 2px solid #4BAA38 !important;
+        }
+
+        .btn-outline-secondary:hover {
+            background-color: #4BAA38 !important;
+            color: white !important;
+        }
+
+        .btn-secondary {
+            background-color: #FED420 !important;
+            color: black !important;
+            border: none !important;
+            font-weight: 500 !important;
+        }
+
+        .btn-secondary:hover {
+            background-color: #388D2C !important;
+        }
+
         .produk-detail {
             display: flex;
             align-items: flex-start;
@@ -31,23 +93,29 @@
             padding: 20px;
             background-color: #ffffff;
         }
+
         .produk-detail img {
             width: 150px;
             border-radius: 10px;
         }
+
         .produk-info {
             max-width: 600px;
         }
+
         .produk-info h2 {
             margin: 0;
             color: #28A745;
         }
+
         .produk-info p {
             margin: 10px 0;
         }
+
         .review-section {
             margin-top: 30px;
         }
+
         .review-card {
             border: 1px solid #FFC107;
             background-color: #FFF8E1;
@@ -55,10 +123,12 @@
             padding: 20px;
             margin-bottom: 20px;
         }
+
         .review-name {
             font-weight: 600;
             color: #333;
         }
+
         .review-form {
             background-color: #28A745;
             padding: 20px;
@@ -66,6 +136,7 @@
             color: white;
             margin-top: 20px;
         }
+
         .review-form input,
         .review-form select,
         .review-form textarea,
@@ -76,26 +147,37 @@
             border: none;
             border-radius: 5px;
         }
+
         .review-form button {
             background-color: #FFD700;
             color: #28A745;
             font-weight: bold;
             cursor: pointer;
         }
+
         .review-form button:hover {
             background-color: #F9C900;
         }
+
         h2 {
             color: #28A745;
             text-align: center;
         }
     </style>
 </head>
-<body>
+
     <!-- Include Navbar -->
     <?php include 'includes/navbar.php'; ?>
 
     <div class="container">
+        <div class="search-container">
+            <img src="img/logo-bursa-umkm.png" alt="Logo" class="logo">
+            <input type="text" class="form-control" placeholder="Pencarian">
+            <a href="favorit.php" class="favorite-icon">
+                <img src="img/favorite.png" alt="Favorit">
+            </a>
+        </div>
+
         <!-- Detail Produk -->
         <div class="produk-detail">
             <img src="images/kentang.jpg" alt="Kentang Frozen Food">
@@ -103,7 +185,9 @@
                 <h2>Kentang Frozen Food</h2>
                 <p><strong>Harga:</strong> Rp. 25.000</p>
                 <p><strong>No Telepon:</strong> 08123456789</p>
-                <p>Kentang frozen food adalah kentang yang dibekukan sebagai salah satu jenis makanan beku (frozen food). Frozen food adalah makanan yang diawetkan dengan cara mengubah sebagian besar kandungan airnya menjadi es.</p>
+                <p>Kentang frozen food adalah kentang yang dibekukan sebagai salah satu jenis makanan beku (frozen
+                    food). Frozen food adalah makanan yang diawetkan dengan cara mengubah sebagian besar kandungan
+                    airnya menjadi es.</p>
                 <ul>
                     <li>Karbohidrat dalam bentuk pati</li>
                     <li>Protein</li>
@@ -159,4 +243,5 @@
     <!-- Include Footer -->
     <?php include 'includes/footer.php'; ?>
 </body>
+
 </html>

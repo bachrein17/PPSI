@@ -24,7 +24,7 @@
                     di sekitar Anda. Temukan produk asli Indonesia dan jadilah bagian dari pemberdayaan ekonomi lokal!
                 </p>
                 <div class="tombol" style="display: flex; flex-wrap:wrap;">
-                    <a href="informasi.php" class="btninfo btn-lg mt-3">Telusuri Sekarang!</a>
+                    <a href="kategori.php" class="btninfo btn-lg mt-3">Telusuri Sekarang!</a>
                 </div>
             </div>
             <div class="jumbotron-image">
