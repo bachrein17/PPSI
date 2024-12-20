@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,7 +49,7 @@
         }
 
         .sidebar a:hover {
-            background-color:rgb(175, 143, 0);
+            background-color: rgb(175, 143, 0);
         }
 
         /* Sidebar collapse */
@@ -67,15 +68,25 @@
             display: none;
         }
 
+        .utama {
+            border-top: 0px;
+            border-bottom: 1px solid black;
+            font-size: larger;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
         /* Mobile View (screen width 768px or less) */
         @media screen and (max-width: 768px) {
             .sidebar {
                 width: 200px;
-                display: none; /* Hide the sidebar by default */
+                display: none;
+                /* Hide the sidebar by default */
             }
 
             .sidebar.show {
-                display: block; /* Show the sidebar when the 'show' class is added */
+                display: block;
+                /* Show the sidebar when the 'show' class is added */
             }
 
             .sidebar-toggle {
@@ -93,7 +104,8 @@
             }
 
             .sidebar h2 {
-                display: none; /* Hide title on mobile */
+                display: none;
+                /* Hide title on mobile */
             }
         }
 
@@ -105,10 +117,11 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
-        <h2>Sumber UMKM</h2>
+        <a class="utama" href="index.php" style="border-top: 0px; padding: 13px; ">Sumber UMKM</a>
         <img src="../img/logo-bursa-umkm.png" alt="Logo">
         <a href="tentang.php">Tentang Bursa UMKM</a>
         <a href="manajemen_produk.php">Manajemen Produk</a>
@@ -130,4 +143,5 @@
         });
     </script>
 </body>
+
 </html>
